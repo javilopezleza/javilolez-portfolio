@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes editadas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+
+        <nav>
+            <div class="back">
+                <a href="index.html">
+                    <i class="bi bi-arrow-left-circle arrowBack"></i>
+                    <p>Inicio</p>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+    <h1>Imágen editada</h1>
+
+    <ul>
+        <li>Paso 1:
+            <ul>
+                <li>
+                    Abrimos la foto de la flor, seleccionamos la flor, la copiamos y le damos a selección->pegar como
+                    nuevo.
+                </li>
+            </ul>
+        </li> <br>
+        <li>Paso 2:
+            <ul>
+                <li>
+                    Escalamos la nueva imagen a 200x200px.
+                </li>
+
+            </ul>
+        </li> <br>
+        <li>Paso 3:
+            <ul>
+                <li>
+                    Abrimos el diálogo de capas, necesitaremos una capa por cada imagen de la animación. <br>
+                    Vamos a copiar y pegar la flor. A la selección flotante le damos a capa nueva y pulsamos sobre el
+                    ojo de la capa más baja para ocultarla.
+                </li>
+            </ul>
+        </li> <br>
+        <li>Paso 4:
+            <ul>
+                <li>
+                    Para quitar un pétalo usaremos la herramienta goma de borrar. <br>
+                    Cuando hayamos borrado un pétalo, duplicamos la capa (desde el diálogo de capas, pulsamos con el botón derecho y seleccionamos duplicar capa). <br>
+                    Dejamos visible solamente esta última capa y repetimos el proceso hasta que la última capa sólo tenga la flor sin pétalos.
+                </li>
+            </ul>
+        </li><br>
+        <li>Paso 5:
+            <ul>
+                <li>
+                    Cuando tengamos todas las capas listas, le damos al ojo para hacerlas visibles.
+                </li>
+            </ul>
+        </li><br>
+        <li>Paso 6:
+            <ul>
+                <li>
+                    A continuación le daremos a guardar como y guardamos la imagen con extensión gif. <br>
+                    Nos dirá que la imagen debe ser exportada, este mensaje ya nos apareció en ejercicios anteriores. <br>
+                    Esta vez tenemos que marcar la opción "guardar como animación" y pulsamos exportar. <br>
+                    En la siguiente ventana que se nos abre, en la casilla correspondiente al retardo entre fotogramas marcamos 400, <br>
+                    en la opción de colocación de cuadros elegimos "un cuadro por capa (reemplazar)" y le damos a aceptar.
+                </li>
+            </ul>
+        </li><br>
+        
+
+    </ul>
+
+    <h2>Imágen de flor editada</h2>
+
+    <div class="flor">
+        <div class="original">
+            <h3>Imágen original</h3>
+            <img src="img/originales/Flor.jpg" alt="">
+        </div>
+        <div class="editada">
+            <h3>Imágen editada</h3>
+            <img src="img/editadas/florecilla.gif" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

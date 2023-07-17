@@ -1,0 +1,820 @@
+@media screen and (min-width: 1px) {
+    nav {
+        border-bottom: 1px solid lightgray;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+        margin-bottom: 2%;
+        .menu {
+            display: flex;
+            align-items: center;
+
+
+            .logo {
+                width: 100px;
+                height: 100px;
+                margin-left: 5%;
+            }
+
+            .navbar-brand{
+                margin-left: 15% !important;
+            }
+
+            .navbar-nav {
+                margin-left: 0% !important;
+                a {
+                    color: black;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: crimson;
+                    }
+                }
+            }
+        }
+
+    }
+    .back {
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            margin-left: 2%;
+        }
+        .arrowBack {
+            font-size: 3rem;
+        }
+        P {
+            margin-left: 1%;
+            font-size: 1.5rem;
+        }
+    }
+    
+    .images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        h2 {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+        }
+        .imgs {
+            margin-left: 0%;
+            .bloque1 {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                a {
+                    width: 50%;
+                    display: flex;
+                    img {
+                        border: 15px groove goldenrod;
+                        margin: 12px;
+                        width: 120px;
+                        height: 120px;
+                    }
+
+                    &:last-child {
+                        margin-left: 25%;
+                    }
+                }
+            }
+
+            .bloque2 {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                a {
+                    width: 50%;
+                    display: flex;
+                    img {
+                        border: 15px groove goldenrod;
+                        margin: 12px;
+                        width: 120px;
+                        height: 120px;
+                    }
+
+                    &:last-child {
+                        margin-left: 25%;
+                    }
+                }
+            }
+        }
+    }
+    .gimpInfo {
+        img {
+            width: 300px;
+            height: 200px;
+        }
+    }
+    .puertas {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 300px;
+                height: 400px;
+            }
+        }
+    }
+    .sierra {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+
+    .barcas {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 400px;
+                height: 700px;
+            }
+        }
+    }
+
+    .flor {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+
+    .raton {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+
+    .mariposa {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+
+    .mapa {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 450px;
+                height: 300px;
+            }
+        }
+    }
+    .mapaA {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 450px;
+                height: 500px;
+            }
+        }
+    }
+
+    .calles {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+
+    .observatorio {
+        display:block;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .back {
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            margin-left: 2%;
+            &:hover {
+                color: goldenrod;
+            }
+        }
+        .arrowBack {
+            font-size: 3rem;
+        }
+        P {
+            margin-left: 1%;
+            font-size: 1.5rem;
+        }
+    }
+    .images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        h2 {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+        }
+        .imgs {
+            margin-left: 15%;
+            .bloque1 {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                a {
+                    width: 50%;
+                    display: flex;
+                    img {
+                        border: 15px groove goldenrod;
+                        margin: 12px;
+                        width: 175px;
+                        height: 175px;
+
+                        &:hover {
+                            transition-duration: 0.75s;
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    &:last-child {
+                        margin-left: 25%;
+                    }
+                }
+            }
+
+            .bloque2 {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                a {
+                    width: 50%;
+                    display: flex;
+                    img {
+                        border: 15px groove goldenrod;
+                        margin: 12px;
+                        width: 175px;
+                        height: 175px;
+
+                        &:hover {
+                            transition-duration: 0.75s;
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    &:last-child {
+                        margin-left: 25%;
+                    }
+                }
+            }
+        }
+    }
+
+    .gimpInfo {
+        img {
+            width: 500;
+            height: auto;
+        }
+    }
+    .puertas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 300px;
+                height: 400px;
+            }
+        }
+    }
+    .sierra {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 400px;
+            }
+        }
+    }
+
+    .barcas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+    }
+
+    .flor {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+    }
+
+    .raton {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+    }
+
+    .mariposa {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+        .editada {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+
+    .mapa {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+        .editada {
+            img {
+                // width: 700px;
+                height: 500px;
+            }
+        }
+    }
+
+    .mapaA {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 450px;
+                height: 500px;
+            }
+        }
+    }
+
+    .calles {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                // width: 300px;
+                height: 400px;
+            }
+        }
+    }
+
+    .observatorio {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 600px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 600px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav {
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+        margin-bottom: 2%;
+        .menu {
+            display: flex;
+            align-items: center;
+            .navbar-nav {
+                margin-left: 55% !important;
+                .enlace{
+                    color: black !important;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: purple !important;
+                    }
+                }
+
+                .landing{
+                    &::after{
+                        content: "";
+                        height: 10px;
+                        width: 1px;
+                        border: 1px solid black;
+                        margin-left: 10%;
+                    }
+
+                    &::before{
+                        content: "";
+                        height: 10px;
+                        width: 1px;
+                        border: 1px solid black;
+                        margin-right: 10%;
+                    }
+                }
+            }
+        }
+    }
+    .images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        h2 {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+        }
+        .imgs {
+            margin-left: 0%;
+            .bloque1 {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                a {
+                    width: auto;
+                    display: flex;
+                    img {
+                        border: 15px groove goldenrod;
+                        margin: 12px;
+                        width: 175px;
+                        height: 175px;
+
+                        &:hover {
+                            transition-duration: 0.75s;
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    &:last-child {
+                        margin-left: 0%;
+                    }
+                }
+            }
+
+            .bloque2 {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                a {
+                    width: auto;
+                    display: flex;
+                    img {
+                        border: 15px groove goldenrod;
+                        margin: 12px;
+                        width: 175px;
+                        height: 175px;
+
+                        &:hover {
+                            transition-duration: 0.75s;
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    &:last-child {
+                        margin-left: 0%;
+                    }
+                }
+            }
+        }
+    }
+
+    .gimpInfo {
+        img {
+            width: 500;
+            height: auto;
+        }
+    }
+
+    .puertas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 300px;
+                height: 400px;
+            }
+        }
+    }
+
+    .sierra {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 400px;
+            }
+        }
+    }
+
+    .barcas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 400px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+    }
+
+    .flor {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+    }
+
+    .raton {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+    }
+
+    .mariposa {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+        .editada {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+
+    .mapa {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 500px;
+            }
+        }
+    }
+
+    .mapaA {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+        .editada {
+            img {
+                // width: 450px;
+                height: 500px;
+            }
+        }
+    }
+
+    .calles {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                // width: 300px;
+                height: 400px;
+            }
+        }
+    }
+
+    .observatorio {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .original {
+            img {
+                width: 700px;
+                height: 600px;
+            }
+        }
+        .editada {
+            img {
+                width: 700px;
+                height: 600px;
+            }
+        }
+    }
+}
+
+
+
+.letters {
+    list-style-type: lower-alpha;
+}
+

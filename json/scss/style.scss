@@ -1,0 +1,28 @@
+table{
+    width: 50%;
+    border: 1px solid;
+    border-collapse: collapse;
+
+    th{
+        border: 1px solid;
+    }
+
+    td{
+        background-color: grey;
+        color: black;
+        p{
+            margin-left: 5%;
+            margin-top: 1%;
+        }
+    }
+
+    .color{
+        background-color: #fff;
+        .full{
+
+            height: 100%;
+            user-select: none;
+            font-size: 2rem;
+        }
+    }
+}

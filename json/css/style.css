@@ -1,0 +1,27 @@
+table {
+  width: 50%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+table th {
+  border: 1px solid;
+}
+table td {
+  background-color: grey;
+  color: black;
+}
+table td p {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+table .color {
+  background-color: #fff;
+}
+table .color .full {
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */

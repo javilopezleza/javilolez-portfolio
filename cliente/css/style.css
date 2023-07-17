@@ -1,0 +1,341 @@
+@media screen and (min-width: 1px) {
+  nav {
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 0% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: blue;
+  }
+  nav .menu .navbar-nav a i {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+
+  main h1 {
+    margin: 2%;
+    font-size: 2rem;
+  }
+  main h2 {
+    margin: 1%;
+    font-size: 1.5rem;
+  }
+  main .text {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 90%;
+    text-align: justify;
+  }
+  main ul {
+    margin-left: 2%;
+  }
+  main ul li {
+    width: 90%;
+    text-align: justify;
+  }
+  main form {
+    margin-left: 28%;
+  }
+  main form input {
+    width: 68% !important;
+    margin: 1% 5px;
+  }
+  main #calculo {
+    margin: 1% 0;
+    width: 50%;
+    margin-left: 28%;
+  }
+  main #resultado {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  main #resultado2 {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  main .tabs {
+    width: 30%;
+  }
+  main .tabs .nav-link {
+    color: black;
+    font-weight: bold;
+  }
+  main #calcular {
+    margin: 1% 0;
+    width: 50%;
+    margin-left: 28%;
+  }
+  main #calc {
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 992px) {
+  nav {
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 50% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: blue;
+  }
+  nav .menu .navbar-nav a i {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  nav {
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+    margin-bottom: 2%;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 55% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: blue;
+  }
+  nav .menu .navbar-nav a i {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+
+  main h1 {
+    margin: 2%;
+    font-size: 2rem;
+  }
+  main h2 {
+    margin: 1%;
+    font-size: 1.5rem;
+  }
+  main .text {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 85%;
+    text-align: justify;
+  }
+  main ul {
+    margin-left: 2%;
+  }
+  main ul li {
+    width: 45%;
+    text-align: justify;
+  }
+  main form {
+    margin-left: 2%;
+  }
+  main form input {
+    width: 25% !important;
+    margin: 1% 0;
+  }
+  main #calculo {
+    width: auto;
+    margin-left: 2%;
+  }
+  main #resultado {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  main #resultado2 {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  main .tabs {
+    width: 25%;
+  }
+  main .tabs .nav-link {
+    color: black;
+    font-weight: bold;
+  }
+  main #calcular {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: auto;
+  }
+  main #calc {
+    -moz-text-align-last: left;
+         text-align-last: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 1400px) {
+  nav {
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+    margin-bottom: 2%;
+  }
+  nav .landing {
+    margin-left: -15% !important;
+  }
+  nav .landing i {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  nav .menu {
+    display: flex;
+    align-items: center;
+  }
+  nav .menu .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+  }
+  nav .menu a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav {
+    margin-left: 65% !important;
+  }
+  nav .menu .navbar-nav a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav .menu .navbar-nav a:hover {
+    color: blue;
+  }
+  nav .menu .navbar-nav a i {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+
+  main h1 {
+    margin: 2%;
+    font-size: 2rem;
+  }
+  main h2 {
+    margin: 1%;
+    font-size: 1.5rem;
+  }
+  main .text {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 95%;
+    text-align: justify;
+  }
+  main ul {
+    margin-left: 2%;
+  }
+  main ul li {
+    width: 45%;
+    text-align: justify;
+  }
+  main form {
+    margin-left: 2%;
+  }
+  main form input {
+    width: 25% !important;
+    margin: 1% 0;
+  }
+  main #calculo {
+    width: auto;
+    margin-left: 2%;
+  }
+  main #resultado {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  main #resultado2 {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  main .tabs {
+    width: 25%;
+  }
+  main .tabs .nav-link {
+    color: black;
+    font-weight: bold;
+  }
+  main #calcular {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: auto;
+  }
+  main #calc {
+    margin-left: 2%;
+    margin-top: 1%;
+    font-weight: bold;
+  }
+}/*# sourceMappingURL=style.css.map */

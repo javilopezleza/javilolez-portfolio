@@ -1,0 +1,615 @@
+@media screen and (min-width: 1px) {
+  .back a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+  }
+  .back .arrowBack {
+    font-size: 3rem;
+  }
+  .back P {
+    margin-left: 1%;
+    font-size: 1.5rem;
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .images h2 {
+    width: 100%;
+  }
+  .images p {
+    width: 100%;
+  }
+  .images .imgs {
+    margin-left: 0%;
+  }
+  .images .imgs .bloque1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images .imgs .bloque1 a {
+    width: 50%;
+    display: flex;
+  }
+  .images .imgs .bloque1 a img {
+    border: 15px groove goldenrod;
+    margin: 12px;
+    width: 120px;
+    height: 120px;
+  }
+  .images .imgs .bloque1 a:last-child {
+    margin-left: 25%;
+  }
+  .images .imgs .bloque2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images .imgs .bloque2 a {
+    width: 50%;
+    display: flex;
+  }
+  .images .imgs .bloque2 a img {
+    border: 15px groove goldenrod;
+    margin: 12px;
+    width: 120px;
+    height: 120px;
+  }
+  .images .imgs .bloque2 a:last-child {
+    margin-left: 25%;
+  }
+
+  .gimpInfo img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .puertas {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .puertas .original img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .sierra {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sierra .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .sierra .editada img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .barcas {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .barcas .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .barcas .editada img {
+    width: 400px;
+    height: 700px;
+  }
+
+  .flor {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flor .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .flor .editada img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .raton {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .raton .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .raton .editada img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .mariposa {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mariposa .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .mariposa .editada img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .mapa {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mapa .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .mapa .editada img {
+    width: 450px;
+    height: 300px;
+  }
+
+  .mapaA {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mapaA .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .mapaA .editada img {
+    width: 450px;
+    height: 500px;
+  }
+
+  .calles {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .calles .original img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .observatorio {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .observatorio .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .observatorio .editada img {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .back a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+  }
+  .back a:hover {
+    color: goldenrod;
+  }
+  .back .arrowBack {
+    font-size: 3rem;
+  }
+  .back P {
+    margin-left: 1%;
+    font-size: 1.5rem;
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .images h2 {
+    width: 100%;
+  }
+  .images p {
+    width: 100%;
+  }
+  .images .imgs {
+    margin-left: 15%;
+  }
+  .images .imgs .bloque1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images .imgs .bloque1 a {
+    width: 50%;
+    display: flex;
+  }
+  .images .imgs .bloque1 a img {
+    border: 15px groove goldenrod;
+    margin: 12px;
+    width: 175px;
+    height: 175px;
+  }
+  .images .imgs .bloque1 a img:hover {
+    transition-duration: 0.75s;
+    transform: scale(1.2);
+  }
+  .images .imgs .bloque1 a:last-child {
+    margin-left: 25%;
+  }
+  .images .imgs .bloque2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images .imgs .bloque2 a {
+    width: 50%;
+    display: flex;
+  }
+  .images .imgs .bloque2 a img {
+    border: 15px groove goldenrod;
+    margin: 12px;
+    width: 175px;
+    height: 175px;
+  }
+  .images .imgs .bloque2 a img:hover {
+    transition-duration: 0.75s;
+    transform: scale(1.2);
+  }
+  .images .imgs .bloque2 a:last-child {
+    margin-left: 25%;
+  }
+
+  .gimpInfo img {
+    width: 500;
+    height: auto;
+  }
+
+  .puertas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .puertas .original img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .sierra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sierra .original img {
+    width: 700px;
+    height: 400px;
+  }
+  .sierra .editada img {
+    width: 700px;
+    height: 400px;
+  }
+
+  .barcas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .barcas .original img {
+    width: 700px;
+    height: 400px;
+  }
+  .barcas .editada img {
+    width: 700px;
+    height: 700px;
+  }
+
+  .flor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flor .original img {
+    width: 700px;
+    height: 700px;
+  }
+  .flor .editada img {
+    width: 700px;
+    height: 700px;
+  }
+
+  .raton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .raton .original img {
+    width: 700px;
+    height: 700px;
+  }
+  .raton .editada img {
+    width: 700px;
+    height: 700px;
+  }
+
+  .mariposa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mariposa .original img {
+    width: 500px;
+    height: 500px;
+  }
+  .mariposa .editada img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .mapa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mapa .original img {
+    width: 500px;
+    height: 500px;
+  }
+  .mapa .editada img {
+    height: 500px;
+  }
+
+  .mapaA {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mapaA .original img {
+    width: 400px;
+    height: 400px;
+  }
+  .mapaA .editada img {
+    width: 450px;
+    height: 500px;
+  }
+
+  .calles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .calles .original img {
+    height: 400px;
+  }
+
+  .observatorio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .observatorio .original img {
+    width: 700px;
+    height: 600px;
+  }
+  .observatorio .editada img {
+    width: 700px;
+    height: 600px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .images h2 {
+    width: 100%;
+  }
+  .images p {
+    width: 100%;
+  }
+  .images .imgs {
+    margin-left: 0%;
+  }
+  .images .imgs .bloque1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images .imgs .bloque1 a {
+    width: auto;
+    display: flex;
+  }
+  .images .imgs .bloque1 a img {
+    border: 15px groove goldenrod;
+    margin: 12px;
+    width: 175px;
+    height: 175px;
+  }
+  .images .imgs .bloque1 a img:hover {
+    transition-duration: 0.75s;
+    transform: scale(1.2);
+  }
+  .images .imgs .bloque1 a:last-child {
+    margin-left: 0%;
+  }
+  .images .imgs .bloque2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images .imgs .bloque2 a {
+    width: auto;
+    display: flex;
+  }
+  .images .imgs .bloque2 a img {
+    border: 15px groove goldenrod;
+    margin: 12px;
+    width: 175px;
+    height: 175px;
+  }
+  .images .imgs .bloque2 a img:hover {
+    transition-duration: 0.75s;
+    transform: scale(1.2);
+  }
+  .images .imgs .bloque2 a:last-child {
+    margin-left: 0%;
+  }
+
+  .gimpInfo img {
+    width: 500;
+    height: auto;
+  }
+
+  .puertas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .puertas .original img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .sierra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sierra .original img {
+    width: 700px;
+    height: 400px;
+  }
+  .sierra .editada img {
+    width: 700px;
+    height: 400px;
+  }
+
+  .barcas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .barcas .original img {
+    width: 700px;
+    height: 400px;
+  }
+  .barcas .editada img {
+    width: 700px;
+    height: 700px;
+  }
+
+  .flor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flor .original img {
+    width: 700px;
+    height: 700px;
+  }
+  .flor .editada img {
+    width: 700px;
+    height: 700px;
+  }
+
+  .raton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .raton .original img {
+    width: 700px;
+    height: 700px;
+  }
+  .raton .editada img {
+    width: 700px;
+    height: 700px;
+  }
+
+  .mariposa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mariposa .original img {
+    width: 500px;
+    height: 500px;
+  }
+  .mariposa .editada img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .mapa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mapa .original img {
+    width: 500px;
+    height: 500px;
+  }
+  .mapa .editada img {
+    width: 700px;
+    height: 500px;
+  }
+
+  .mapaA {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mapaA .original img {
+    width: 500px;
+    height: 500px;
+  }
+  .mapaA .editada img {
+    height: 500px;
+  }
+
+  .calles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .calles .original img {
+    height: 400px;
+  }
+
+  .observatorio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .observatorio .original img {
+    width: 700px;
+    height: 600px;
+  }
+  .observatorio .editada img {
+    width: 700px;
+    height: 600px;
+  }
+}
+.letters {
+  list-style-type: lower-alpha;
+}/*# sourceMappingURL=style.css.map */

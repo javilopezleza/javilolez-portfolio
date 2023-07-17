@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios SYSTEM "usuarios.dtd">
+<usuarios>
+    <usuario id="u23">
+        <nombre>Monnie</nombre>
+        <apellido>Boddie</apellido>
+        <ciudad>Mexicali</ciudad>
+        <pais>Mexico</pais>
+        <contacto>
+            <telefono>44221234</telefono>
+            <email>monnie@ejemplo.com</email>
+        </contacto>
+    </usuario>
+    <usuario id="u33">
+        <nombre>Ted</nombre>
+        <apellido>Gonzalez</apellido>
+        <ciudad>Buenos Aires</ciudad>
+        <pais>Argentina</pais>
+        <contacto>
+            <telefono>44224664</telefono>
+            <email>ted@ejemplo.com</email>
+        </contacto>
+    </usuario>
+    <usuario id="u40">
+        <nombre>Luis</nombre>
+        <apellido>García</apellido>
+        <ciudad>Granada</ciudad>
+        <pais>España</pais>
+        <contacto>
+            <telefono>958000000</telefono>
+            <email>lgarcia@grupofuturo.es</email>
+        </contacto>
+    </usuario>
+</usuarios>
