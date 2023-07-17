@@ -103,10 +103,6 @@ if (isset($_POST['enviar'])) {
                 <label for="pass">Password:</label>
                 <input type="password" class="pass" name="pass" id="pass" placeholder="Contraseña">
             </div>
-            <!-- <div class="log-check">
-                <input type="checkbox" class="check" name="ml" id="ml">
-                <p>Mantenerme conectado</p>
-            </div> -->
 
             <div class="submit">
                 <input type="submit" name="conectar" id="conectar" value="Conectar">
@@ -116,7 +112,7 @@ if (isset($_POST['enviar'])) {
 
     <?php
 
-    //Extrae datos de la base de datos para comprobar si coinciden
+    //Comprobaciones bdd
 
     if (isset($_POST['conectar'])) {
         include_once "functions.php";
