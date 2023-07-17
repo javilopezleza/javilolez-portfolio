@@ -53,18 +53,12 @@ if (isset($_POST['enviar'])) {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav menu">
-                    <!-- <a class="nav-link" aria-current="page" href="edicion/index.html">Edición</a>
-          <a class="nav-link" href="examen/index.html">Examen</a>
-          <a class="nav-link" href="cliente/index.html">Examen Cliente</a>
-          <a class="nav-link" href="servidor/index.php">Examen PHP</a> -->
-                    <!-- <a class="nav-link" href="loginAdmin.php">Log in</a> -->
                 </div>
             </div>
             <div class="user">
                 <?php
 
-                // Si existe la sesion de administrador muestra el icono para acceder a las funciones de administrador
-                // en caso de ser usuario normal solo prodrás cerrar sesión
+            //Funciones admin
 
             if (isset($_SESSION['is_admin'])) {
 
@@ -78,6 +72,8 @@ if (isset($_POST['enviar'])) {
                 "<a href='cerrarSesion.php?cerrar=true'>Cerrar sesión</a>" .
                 "</div>" .
                 "</div>");
+
+                //Funciones usuario
             }elseif(isset($_SESSION['is_user']) == 1){
                 echo "<i id ='user' class='bi bi-person-circle'></i></a>";
                 echo ("<div id='adminUses' class='adminUses' style='display:none;'>" .
